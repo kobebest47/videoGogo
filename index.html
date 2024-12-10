@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片播放頁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .video-container {
+            width: 80%;
+            max-width: 800px;
+            background: #fff;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        video {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>歡迎觀看影片</h1>
+    <div class="video-container">
+        <video controls>
+            <source src="/video/gogoformVideo.mp4" type="video/mp4">
+            您的瀏覽器不支援影片播放，請升級至最新版本的瀏覽器。
+        </video>
+    </div>
+</body>
+</html>
